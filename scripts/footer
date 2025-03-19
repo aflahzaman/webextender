@@ -1,0 +1,9 @@
+<footer style="text-align: center; margin: 0em 0; color: #C6D0E0
+; background-color: transparent;">
+  &copy; <span id="year"></span> AFLAH ZAMAN <br> All Rights Reserved
+</footer>
+
+<!-- JavaScript for dynamic year -->
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
